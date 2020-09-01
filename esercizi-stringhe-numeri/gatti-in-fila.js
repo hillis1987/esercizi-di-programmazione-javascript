@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var numGatti = 44;
+var gattiPerFila = 6;
+var numFile = Math.ceil(numGatti/gattiPerFila);
+var gattiMancanti = (gattiPerFila*numFile)-numGatti;
+
+console.log(`il numero di file è ${numFile}, mentre i gatti mancanti sono: ${gattiMancanti}`);

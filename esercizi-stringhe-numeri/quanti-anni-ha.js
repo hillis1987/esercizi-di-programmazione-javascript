@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var annoCorrente = 2020, annoNascita = 1987;
+var eta = annoCorrente - annoNascita;
+
+var anniMancanti = 100 - eta;
+
+console.log(eta);
+console.log(anniMancanti);

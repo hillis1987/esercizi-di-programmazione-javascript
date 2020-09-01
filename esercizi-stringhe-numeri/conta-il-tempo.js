@@ -12,3 +12,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var numSec = 12560;
+
+var h = numSec/3600;
+var m = (numSec%3600)/60;
+var s = (numSec%3600)%60;
+
+console.log( parseInt(h) +' ore, '+ parseInt(m)+' minuti e '+ parseInt(s) + ' secondi.');
