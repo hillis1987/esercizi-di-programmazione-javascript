@@ -21,3 +21,29 @@
 
   http://www.imparareaprogrammare.it
 */
+var menu = {
+  '1.': 'Tiramisù',
+  '2.': 'Torta',
+  '3.': 'caso',
+  '4.': 'prova'
+}
+console.log('MENU: ');
+console.log(menu);
+var scelta = prompt('scegli un dolce');
+
+switch (scelta) {
+  case '1':
+    console.log('1. Tiramisù');
+    break;
+  case '2':
+    console.log('2. Torta della nonna');
+    break;
+  case '3':
+    console.log('3. Cheesecake alla nutella');
+    break;
+  case '4':
+    console.log('4. Macedonia');
+  default:
+    console.log('Dolce non disponibile');
+
+}
