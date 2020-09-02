@@ -19,3 +19,23 @@
 
   http://www.imparareaprogrammare.it
 */
+var giocatore1 = 5;
+var giocatore2 = 10;
+
+var banco = Math.floor(Math.random()*(100-1)+1);
+
+console.log(banco);
+var diff1 = Math.abs(banco - giocatore1);
+var diff2 = Math.abs(banco - giocatore2);
+var flag = false;
+if (giocatore1==banco) {
+  flag = true;
+  console.log('Complimenti giocatore1 hai vinto');
+} else if (giocatore2==banco) {
+  flag = true;
+  console.log('Complimenti giocatore2 hai vinto');
+}  if ((diff1>diff2) && (flag == false)) {
+  console.log('Nessuno dei due ha azzeccato il numero, ma il giocatore2 si è avvicinato di più!');
+} else if ((diff1<diff2) && (flag == false)) {
+  console.log('Nessuno dei due ha azzeccato il numero, ma il giocatore1 si è avvicinato di più!');
+}
