@@ -9,3 +9,24 @@
 
   http://www.imparareaprogrammare.it
 */
+var max = 0;
+var min = 0;
+var a = 10, b = -2, c = 31, d = 22, e = 15, f = -6, g = 7;
+
+if (a>b) {
+  max = a;
+  min = b;
+} else if (c>d){
+  max = c;
+  min = d;
+}else if (e>f){
+  max = e;
+  min = f;
+}else {
+  max = g;
+}if (a>c) {
+  max = a;
+
+}else if (c>) {
+
+}
