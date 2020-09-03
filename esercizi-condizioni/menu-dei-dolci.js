@@ -21,14 +21,12 @@
 
   http://www.imparareaprogrammare.it
 */
-var menu = {
-  '1.': 'Tiramisù',
-  '2.': 'Torta',
-  '3.': 'caso',
-  '4.': 'prova'
-}
-console.log('MENU: ');
-console.log(menu);
+console.log('MENU:');
+console.log('1. Tiramisù');
+console.log('2. Torta della nonna');
+console.log('3. Cheesecake alla nutella');
+console.log('4. Macedonia');
+
 var scelta = prompt('scegli un dolce');
 
 switch (scelta) {
